@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <script src="JS/Calculator.js" defer></script>
+    </head>
+    <body>
+        <p>Число X: <input type="text" id="x"></p>
+        <p>Число Y: <input type="text" id="y"></p>
+        <button onclick ="document.getElementById('out').innerHTML = getSum()" >Додати</button>
+        <button onclick="document.getElementById('out').innerHTML = getSubtract()">Відняти</button>
+        <hr>
+        <p id="out">Результат:</p>
+
+    </body>
+</html>
